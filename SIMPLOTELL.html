@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend</title>
+    
+    <style>
+        *{
+    text-decoration: none;
+ }
+ .navbar{
+    background:#F24C4C;
+}
+.navdiv{
+    display: flex;  
+}
+li{
+    list-style: none; display: inline-block; 
+}
+li a{     
+    color: black; font-size:27px; font-weight: bold;font-family:Courier New; 
+    text-align: center;  
+    width: 200px; 
+    margin-left: 65px;
+}
+#head{
+    margin-left: 74px;
+    font-family:'Gill Sans MT';
+    font-size: 40px;
+    font-weight: 550;  
+}
+pre{
+    font-size: 17px;
+}
+#btn{
+    background-color:#F24C4C; margin-left: 80px; border: 0px; padding: 10px; width: 250px;;
+    font-weight:100px; font-size: 15px;
+
+}
+button a{
+    color: white;
+}
+aside{
+    text-align: center;
+    width: 49.7%;
+    margin-left: 742px;
+    margin-top: -491px;
+    height: 84px;
+    padding-top: 70px;
+}
+section{
+    padding-top: 700px;  
+    margin-left: 70px;     
+}
+article{
+    margin-left: 70px;
+    margin-top: 2px;
+}
+#one{
+    margin-top: -578px;
+    margin-left: 210px;  
+}
+.hash{
+    margin-left: 750px;
+    width: 450px;
+    text-align: left;
+    font-family:'Gill Sans MT';
+    font-size: 25px;
+    background-color: #F24C4C;
+    color: black;
+    margin-top: 50px;   
+           
+}
+#btn1{
+    color: black;
+    background-color: #F24C4C;
+    border:0px;
+    margin-bottom: 20px;
+    font-size: large; 
+    padding: 10px 20px;
+    display: block;
+    margin: 0 auto; 
+} 
+
+@media only screen and(max-width:768px) {
+    .navdiv{
+        flex-direction: column;
+        align-items: center;
+    }
+    #head{
+        margin-left: 0;
+        text-align: center;
+    }
+    pre{
+        font-size: 12px;
+        margin: 10px;
+    }
+    #btn,#btn1{
+        margin-left: 0;
+        width: 100%;
+    }
+    aside,section.article,#one{
+        margin-left: 10px auto;
+        width: 90%;
+        
+    }
+    aside,section.article,#one{
+        margin: 20px auto;
+        text-align: center;
+        max-width: 100%;
+        height: auto;    
+    }
+    .hash{
+    
+    text-align: left;
+    font-family:'Gill Sans MT';
+    font-size: 18px;
+    background-color: #F24C4C;
+    color: black;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 100%;   
+           
+}
+}
+
+    </style>
+    
+</head>
+
+<body style="background-image: linear-gradient(to right,#FFF78A,#FF7ED4); margin-left: -10px;margin-top: -3px; margin-bottom: 200px;">
+    
+    <nav class="navbar">
+        <div class="navdiv">
+            <ul style="background-color:#F24C4C; margin-left: 50px;">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">Food</a></li>
+                <li><a href="#">Restaurant</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#"><img src="img5.png" alt="img" width="30px" height="20px"></a></li>
+            </ul> 
+        </div>
+    </nav>
+    <br><br><br><br>
+
+    <h1 id="head">LOREM IPSUM</h1><br>
+
+    <pre>        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+        id est vitae dolor rhoncus tristique. Maecenas metus quam,
+        rhoncus euismod lorem in, sollicitudin viverra eros. Donec
+        dictum luctus quam ut tristique. Curabitur nec faucibus purus.
+        Quisque congue sem nec justo mollis, in tincidunt erat pretium.
+        Sed pulvinar, massa ac porta viverra.</pre><br><br>
+
+    <button id="btn"><a href="#">Click Me</a></button>
+        
+    <aside><img src="img1.jpg" alt="img" height="600px" width="100%"></aside> 
+    <section><img src="img4.jpg" alt="img" height="250px" width="25%"></section>   
+    <article><img src="img2.jpg" alt="img" height="250px" width="25%"></article> 
+    <aside id="one"><img src="img3.jpg" alt="img" height="504px" width="40%"></aside>
+    
+    <div class="hash">
+        <p style="font-size: 20px; text-align:left; margin-left: 20px; padding-top: 20px;">LOREM IPSUM</p>
+        <h1 style="text-align: center;">LOREM IPSUM SET ADEMIR</h1>            
+        <button id="btn1" style="text-align: left;margin-left: 20px;">Click<a href="#"><img style="margin-left: 10px;" src="img6.png" alt="img"  width="20px"></button>
+    </div>     
+        
+ </body>
+
+</html>
